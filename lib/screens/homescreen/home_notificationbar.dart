@@ -44,7 +44,7 @@ class HomeScreenNotificationBar extends StatelessWidget {
                 const NotificationBarLargeVolumeSlider(),
                 const SizedBox(height: 8),
                 NotificationBarLargeNotification(
-                  icon: LucideIcons.twitter,
+                  icon: LucideIcons.x,
                   iconSize: 16,
                   iconColor: Utils.gunMetal,
                   title: ':plotsklapps',
@@ -56,7 +56,7 @@ class HomeScreenNotificationBar extends StatelessWidget {
                   expandedSubtitle: 'Click here to visit my X profile',
                 ),
                 NotificationBarLargeNotification(
-                  icon: LucideIcons.github,
+                  icon: LucideIcons.code,
                   iconSize: 16,
                   iconColor: Utils.gunMetal,
                   title: ':plotsklapps',
@@ -101,12 +101,12 @@ class NotificationBarIconRowLeft extends StatelessWidget {
         Row(
           children: <Widget>[
             Icon(
-              LucideIcons.twitter,
+              LucideIcons.x,
               size: 20,
               color: Utils.gunMetal,
             ),
             Icon(
-              LucideIcons.github,
+              LucideIcons.code,
               size: 20,
               color: Utils.gunMetal,
             ),

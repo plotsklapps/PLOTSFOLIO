@@ -23,11 +23,11 @@ class AppdrawerScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               const AppdrawerIcon(
-                icon: LucideIcons.twitter,
+                icon: LucideIcons.x,
                 onPressed: Utils.launchXURL,
               ),
               const AppdrawerIcon(
-                icon: LucideIcons.github,
+                icon: LucideIcons.code,
                 onPressed: Utils.launchGithubURL,
               ),
               const AppdrawerIcon(
@@ -106,7 +106,7 @@ class AppdrawerScreen extends StatelessWidget {
                 ),
                 child: IconButton(
                   icon: const Icon(
-                    LucideIcons.github,
+                    LucideIcons.code,
                     color: Utils.gunMetal,
                   ),
                   onPressed: () {
@@ -198,7 +198,7 @@ class AppdrawerScreen extends StatelessWidget {
                 ),
                 child: IconButton(
                   icon: const Icon(
-                    LucideIcons.twitter,
+                    LucideIcons.x,
                     color: Utils.gunMetal,
                   ),
                   onPressed: () {
@@ -221,122 +221,7 @@ class AppdrawerScreen extends StatelessWidget {
                 ),
                 child: IconButton(
                   icon: const Icon(
-                    LucideIcons.github,
-                    color: Utils.gunMetal,
-                  ),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                ),
-              ),
-              Container(
-                height: 64,
-                width: 64,
-                decoration: BoxDecoration(
-                  color: Utils.lightGrey,
-                  border: Border.all(
-                    color: Utils.gunMetal,
-                    width: 4,
-                  ),
-                  borderRadius: const BorderRadius.all(
-                    Radius.circular(12),
-                  ),
-                ),
-                child: IconButton(
-                  icon: const Icon(
-                    LucideIcons.notebookPen,
-                    color: Utils.gunMetal,
-                  ),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                ),
-              ),
-              Container(
-                height: 64,
-                width: 64,
-                decoration: BoxDecoration(
-                  color: Utils.lightGrey,
-                  border: Border.all(
-                    color: Utils.gunMetal,
-                    width: 4,
-                  ),
-                  borderRadius: const BorderRadius.all(
-                    Radius.circular(12),
-                  ),
-                ),
-                child: IconButton(
-                  icon: const Icon(Icons.close),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                ),
-              ),
-              Container(
-                height: 64,
-                width: 64,
-                decoration: BoxDecoration(
-                  color: Utils.lightGrey,
-                  border: Border.all(
-                    color: Utils.gunMetal,
-                    width: 4,
-                  ),
-                  borderRadius: const BorderRadius.all(
-                    Radius.circular(12),
-                  ),
-                ),
-                child: IconButton(
-                  icon: const Icon(Icons.close),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 16),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: <Widget>[
-              Container(
-                height: 64,
-                width: 64,
-                decoration: BoxDecoration(
-                  color: Utils.lightGrey,
-                  border: Border.all(
-                    color: Utils.gunMetal,
-                    width: 4,
-                  ),
-                  borderRadius: const BorderRadius.all(
-                    Radius.circular(12),
-                  ),
-                ),
-                child: IconButton(
-                  icon: const Icon(
-                    LucideIcons.twitter,
-                    color: Utils.gunMetal,
-                  ),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                ),
-              ),
-              Container(
-                height: 64,
-                width: 64,
-                decoration: BoxDecoration(
-                  color: Utils.lightGrey,
-                  border: Border.all(
-                    color: Utils.gunMetal,
-                    width: 4,
-                  ),
-                  borderRadius: const BorderRadius.all(
-                    Radius.circular(12),
-                  ),
-                ),
-                child: IconButton(
-                  icon: const Icon(
-                    LucideIcons.github,
+                    LucideIcons.code,
                     color: Utils.gunMetal,
                   ),
                   onPressed: () {
@@ -428,7 +313,7 @@ class AppdrawerScreen extends StatelessWidget {
                 ),
                 child: IconButton(
                   icon: const Icon(
-                    LucideIcons.twitter,
+                    LucideIcons.x,
                     color: Utils.gunMetal,
                   ),
                   onPressed: () {
@@ -451,7 +336,7 @@ class AppdrawerScreen extends StatelessWidget {
                 ),
                 child: IconButton(
                   icon: const Icon(
-                    LucideIcons.github,
+                    LucideIcons.code,
                     color: Utils.gunMetal,
                   ),
                   onPressed: () {
@@ -543,7 +428,7 @@ class AppdrawerScreen extends StatelessWidget {
                 ),
                 child: IconButton(
                   icon: const Icon(
-                    LucideIcons.twitter,
+                    LucideIcons.x,
                     color: Utils.gunMetal,
                   ),
                   onPressed: () {
@@ -566,7 +451,122 @@ class AppdrawerScreen extends StatelessWidget {
                 ),
                 child: IconButton(
                   icon: const Icon(
-                    LucideIcons.github,
+                    LucideIcons.code,
+                    color: Utils.gunMetal,
+                  ),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+              ),
+              Container(
+                height: 64,
+                width: 64,
+                decoration: BoxDecoration(
+                  color: Utils.lightGrey,
+                  border: Border.all(
+                    color: Utils.gunMetal,
+                    width: 4,
+                  ),
+                  borderRadius: const BorderRadius.all(
+                    Radius.circular(12),
+                  ),
+                ),
+                child: IconButton(
+                  icon: const Icon(
+                    LucideIcons.notebookPen,
+                    color: Utils.gunMetal,
+                  ),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+              ),
+              Container(
+                height: 64,
+                width: 64,
+                decoration: BoxDecoration(
+                  color: Utils.lightGrey,
+                  border: Border.all(
+                    color: Utils.gunMetal,
+                    width: 4,
+                  ),
+                  borderRadius: const BorderRadius.all(
+                    Radius.circular(12),
+                  ),
+                ),
+                child: IconButton(
+                  icon: const Icon(Icons.close),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+              ),
+              Container(
+                height: 64,
+                width: 64,
+                decoration: BoxDecoration(
+                  color: Utils.lightGrey,
+                  border: Border.all(
+                    color: Utils.gunMetal,
+                    width: 4,
+                  ),
+                  borderRadius: const BorderRadius.all(
+                    Radius.circular(12),
+                  ),
+                ),
+                child: IconButton(
+                  icon: const Icon(Icons.close),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Container(
+                height: 64,
+                width: 64,
+                decoration: BoxDecoration(
+                  color: Utils.lightGrey,
+                  border: Border.all(
+                    color: Utils.gunMetal,
+                    width: 4,
+                  ),
+                  borderRadius: const BorderRadius.all(
+                    Radius.circular(12),
+                  ),
+                ),
+                child: IconButton(
+                  icon: const Icon(
+                    LucideIcons.x,
+                    color: Utils.gunMetal,
+                  ),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+              ),
+              Container(
+                height: 64,
+                width: 64,
+                decoration: BoxDecoration(
+                  color: Utils.lightGrey,
+                  border: Border.all(
+                    color: Utils.gunMetal,
+                    width: 4,
+                  ),
+                  borderRadius: const BorderRadius.all(
+                    Radius.circular(12),
+                  ),
+                ),
+                child: IconButton(
+                  icon: const Icon(
+                    LucideIcons.code,
                     color: Utils.gunMetal,
                   ),
                   onPressed: () {

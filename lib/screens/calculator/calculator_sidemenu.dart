@@ -58,7 +58,7 @@ class CalculatorSideMenu extends StatelessWidget {
                     uri: Uri.parse(
                       'https://github.com/plotsklapps/plotsfolio/blob/master/lib/screens/calculator/calculator_screen.dart',
                     ),
-                    builder: (BuildContext context, FollowLink? followLink) {
+                    builder: (BuildContext context, followLink) {
                       return TextButton(
                         onPressed: followLink,
                         child: const Text('Calculator respository on Github'),
